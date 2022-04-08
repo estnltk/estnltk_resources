@@ -2,7 +2,7 @@
 
 This repository contains the index of EstNLTK's downloadable resources.
 
-The file `resources_index.json` should have the following structure:
+The file `resources_index.json` should have the following format:
 
 ```yaml
 {
@@ -15,7 +15,7 @@ The file `resources_index.json` should have the following structure:
             "aliases": [ ..., ... ], 
 
             # (long) description of the resource. optional
-            desc": ___,
+            "desc": ___,
 
             # license. can be freeform text. optional?
             "license": ___, 
