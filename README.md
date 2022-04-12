@@ -22,6 +22,9 @@ The file `resources_index.json` should have the following format:
 
             # download url of the resource. zip or gz file. mandatory
             "url": "https://...", 
+
+            # size of the unpacked resource in GB. floating point number. optional.
+            "size": ___,
           
             # path of the resource inside the resources folder once it has been unpacked. 
             # must be unique. mandatory
