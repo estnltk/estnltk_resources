@@ -25,6 +25,9 @@ The file `resources_index.json` should have the following format:
 
             # size of the unpacked resource in GB. floating point number. optional.
             "size": ___,
+
+            # MD5 hexdigest string of the packed resource. optional.
+            "md5": ___,
           
             # path of the resource inside the resources folder once it has been unpacked. 
             # must be unique. mandatory
@@ -45,6 +48,8 @@ Notes:
 * `"name"` must contain an ISO-format date, e.g. `2021-05-29` or `2015-06-21`. this date is used for sorting resources, and by default, only the resource with the latest date is downloaded and used by tools;
 * `"aliases"` can list names of the tool or tagger that uses the resource, e.g. different stanza syntax models can be marked with aliases `"stanza_syntax"`, `"stanzasyntaxtagger"`;  
 * `"url"` must point to a zip or gz file, which can be downloaded and unpacked. Other file formats (including .tar.gz) are not supported;
+* `"size"` gives the size of the unpacked resource in GB, e.g. `0.232` stands for `232 MB` and `1.6` stands for `1.6 GB`. This information is prompted to the user before the download, so that the user can choose whether she/he wants to download a large resource;
+* `"md5"` gives MD5 hexdigest string of the packed resource. The digest is checked after the download and if the sums do not match, the resource will be discarded. 
 * `"unpack_target_path"` must be a valid path name, corresponding to a file (if the package contains a single one file) or a directory (directory which needs to be extracted from the zip). this path is also used for checking the existence of the resource once it has been downloaded and unpacked. 
 	* use `/` as a directory separator;
 	* if the resource is a directory, then the path should end with `/`; otherwise, it is assumed to be path of a file;

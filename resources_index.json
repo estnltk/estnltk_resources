@@ -5,6 +5,7 @@
       "license": "GPLv2", 
       "url": "https://entu.keeleressursid.ee/api2/file-24652", 
       "size": 0.039,
+      "md5": "d086538ce89a89174f46f24f7463ca02",
       "unpack_source_path": "udpipetagger/resources/", "unpack_target_path": "udpipe_syntax/models_2021-05-29/",
       "comment": "(!) 'unpack_source_path' becomes redundant once the archive will be fixed"
     },
