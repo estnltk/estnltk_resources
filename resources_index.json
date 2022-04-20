@@ -25,6 +25,14 @@
       "size": 0.174,
       "url": "https://entu.keeleressursid.ee/api2/file-23851?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0", 
       "unpack_target_path": "word2vec/embeddings_2015-06-21/lemmas.cbow.s100.w2v.bin"
+    },
+
+    { "name": "tartuNLP_EstBERT_2022-03-10", "aliases": ["EstBERT"], 
+      "desc": "EstBERT is a pretrained BERTBase model exclusively trained on Estonian cased corpus. This model is from huggingface tartuNLP/EstBERT commit: 'e97f62c'. More info: https://huggingface.co/tartuNLP/EstBERT", 
+      "license": "GPLv2", 
+      "size": 2.4,
+      "url": "https://huggingface.co/tartuNLP/EstBERT", "hf_revision": "e97f62c",
+      "unpack_target_path": "EstBERT/hf_tartuNLP_2022-03-10/"
     }
 
   ]
