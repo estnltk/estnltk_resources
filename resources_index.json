@@ -33,7 +33,7 @@
       "url": "https://entu.keeleressursid.ee/api2/file-24906", 
       "size": 0.039,
       "md5": "61a2674aa3569a8e83d7378cd917d54d",
-      "unpack_target_path": "udpipe_syntax/models_2021-05-29/",
+      "unpack_target_path": "udpipe_syntax/models_2021-05-29/"
     },
     
     { "name": "word2vec_2015-06-21_1", "aliases": ["word2vec", "word_embeddings"], 
