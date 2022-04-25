@@ -37,7 +37,7 @@
     },
 
     { "name": "neural_morph_softmax_emb_cat_sum_2019-08-23", "aliases": ["neural_morph", "neural_morph_disamb", "neural_morph_tagger", "neuralmorphdisamb", "neuralmorphtagger", "softmaxembcatsumtagger"], 
-      "desc": "Model for SoftmaxEmbCatSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu.", 
+      "desc": "Model for SoftmaxEmbCatSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu. Specific requirements: Python 3.7, tensorflow version < 2.0, such as 1.15.5.", 
       "license": "GPLv2", 
       "url": "https://entu.keeleressursid.ee/api2/file-24912", 
       "size": 0.355,
@@ -47,7 +47,7 @@
     },
 
     { "name": "neural_morph_softmax_emb_tag_sum_2019-08-23", "aliases": ["neural_morph", "neural_morph_disamb", "neuralmorphdisamb", "softmaxembtagsumtagger"],
-      "desc": "Model for SoftmaxEmbTagSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu.", 
+      "desc": "Model for SoftmaxEmbTagSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu. Specific requirements: Python 3.7, tensorflow version < 2.0, such as 1.15.5.", 
       "license": "GPLv2", 
       "url": "https://entu.keeleressursid.ee/api2/file-24915", 
       "size": 0.354,
@@ -57,7 +57,7 @@
     },
     
     { "name": "neural_morph_seq2seq_emb_cat_sum_2019-08-23", "aliases": ["neural_morph", "neural_morph_disamb", "neuralmorphdisamb", "seq2seqembcatsumtagger"],
-      "desc": "Model for Seq2SeqEmbCatSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu.", 
+      "desc": "Model for Seq2SeqEmbCatSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu. Specific requirements: Python 3.7, tensorflow version < 2.0, such as 1.15.5.", 
       "license": "GPLv2", 
       "url": "https://entu.keeleressursid.ee/api2/file-24918", 
       "size": 0.366,
@@ -67,7 +67,7 @@
     },
     
     { "name": "neural_morph_seq2seq_emb_tag_sum_2019-08-23", "aliases": ["neural_morph", "neural_morph_disamb", "neuralmorphdisamb", "seq2seqembtagsumtagger"],
-      "desc": "Model for Seq2SeqEmbTagSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu.", 
+      "desc": "Model for Seq2SeqEmbTagSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu. Specific requirements: Python 3.7, tensorflow version < 2.0, such as 1.15.5.", 
       "license": "GPLv2", 
       "url": "https://entu.keeleressursid.ee/api2/file-24921",
       "size": 0.365,
