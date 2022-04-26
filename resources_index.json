@@ -97,7 +97,8 @@
       "desc": "word2vec lemma-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.174,
-      "url": "https://entu.keeleressursid.ee/api2/file-23851?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0", 
+      "md5": "d4acdc861f0235d90fd976deb5fd4039",
+      "url": "https://entu.keeleressursid.ee/api2/file-23851", 
       "unpack_target_path": "word2vec/embeddings_2015-06-21/lemmas.cbow.s100.w2v.bin"
     },
 
@@ -105,7 +106,8 @@
       "desc": "word2vec lemma-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.342,
-      "url": "https://entu.keeleressursid.ee/api2/file-23857?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0", 
+      "md5": "287767879d9a7898fc7c418abfcf1ac0",
+      "url": "https://entu.keeleressursid.ee/api2/file-23857", 
       "unpack_target_path": "word2vec/embeddings_2015-06-21/lemmas.cbow.s200.w2v.bin"
     },
 
@@ -113,7 +115,8 @@
       "desc": "word2vec lemma-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.174,
-      "url": "https://entu.keeleressursid.ee/api2/file-23872?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0",
+      "md5": "cd092d37ebd99f52709896d8847cbe81",
+      "url": "https://entu.keeleressursid.ee/api2/file-23872",
       "unpack_target_path": "word2vec/embeddings_2015-06-21/lemmas.sg.s100.w2v.bin"
     },
 
@@ -121,7 +124,8 @@
       "desc": "word2vec lemma-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.342,
-      "url": "https://entu.keeleressursid.ee/api2/file-23869?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0",
+      "md5": "8531964344f6e4554019b7ed43b5cfa4",
+      "url": "https://entu.keeleressursid.ee/api2/file-23869",
       "unpack_target_path": "word2vec/embeddings_2015-06-21/lemmas.sg.s200.w2v.bin"
     },
 
@@ -129,7 +133,8 @@
       "desc": "word2vec word-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.322,
-      "url": "https://entu.keeleressursid.ee/api2/file-23875?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0", 
+      "md5": "a5fba372ae44111f713299a0b6da802b",
+      "url": "https://entu.keeleressursid.ee/api2/file-23875", 
       "unpack_target_path": "word2vec/embeddings_2015-06-21/words.cbow.s100.w2v.bin"
     },
 
@@ -137,7 +142,8 @@
       "desc": "word2vec word-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.633,
-      "url": "https://entu.keeleressursid.ee/api2/file-23881?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0", 
+      "md5": "a1b76cb4d6162d0f9c4b6a3ce225f04e",
+      "url": "https://entu.keeleressursid.ee/api2/file-23881", 
       "unpack_target_path": "word2vec/embeddings_2015-06-21/words.cbow.s200.w2v.bin"
     },
 
@@ -145,7 +151,8 @@
       "desc": "word2vec word-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.322,
-      "url": "https://entu.keeleressursid.ee/api2/file-23887?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0",
+      "md5": "c2281ae3a42f9773ec815a1d90f7d860",
+      "url": "https://entu.keeleressursid.ee/api2/file-23887",
       "unpack_target_path": "word2vec/embeddings_2015-06-21/words.sg.s100.w2v.bin"
     },
 
@@ -153,7 +160,8 @@
       "desc": "word2vec word-based embeddings model created by Alexander Tkachenko. More info: https://github.com/estnltk/word2vec-models", 
       "license": "CC BY-SA 4.0", 
       "size": 0.633,
-      "url": "https://entu.keeleressursid.ee/api2/file-23896?key=I7G5aC1YgdInohMJjUhi1d5e4jLdhQerZ4ikezz1JEv3B9yuJt9KiPl9lrS87Yz0",
+      "md5": "eb4d84e9c9d8d6ab8a8f163e62297b62",
+      "url": "https://entu.keeleressursid.ee/api2/file-23896",
       "unpack_target_path": "word2vec/embeddings_2015-06-21/words.sg.s200.w2v.bin"
     }
 
