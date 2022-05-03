@@ -78,7 +78,7 @@
 
     { "name": "estbert_from_tartunlp_hf_2022-03-10", "aliases": ["estbert", "berttagger", "berttransformer", "bert"], 
       "desc": "Model for BertTagger and BertTransformer. BertTagger outputs token or word level embeddings. BertTransformer outputs sentence and word level embeddings. The original EstBERT model was trained on Estonian National Corpus 2017 by Hasan Tanvir, Claudia Kittask, Kairit Sirts. This version of the model is from huggingface tartuNLP/EstBERT commit e97f62c. More info: https://huggingface.co/tartuNLP/EstBERT", 
-      "license": "(contact the authors for license information)", 
+      "license": "CC BY 4.0", 
       "size": 2.4,
       "url": "https://huggingface.co/tartuNLP/EstBERT", "hf_revision": "e97f62c",
       "unpack_target_path": "estbert/model_hf_tartunlp_2022-03-10/"
@@ -86,7 +86,7 @@
     
     { "name": "estbert_2020-10-20", "aliases": ["estbert", "berttagger", "berttransformer", "bert"], 
       "desc": "Model for BertTagger and BertTransformer. BertTagger outputs token or word level embeddings. BertTransformer outputs sentence and word level embeddings. Corresponding EstBERT model was trained on Estonian National Corpus 2017 by Hasan Tanvir, Claudia Kittask, Kairit Sirts. When appropriate cite the article: EstBERT: A Pretrained Language-Specific BERT for Estonian https://arxiv.org/abs/2011.04784", 
-      "license": "(contact the authors for license information)", 
+      "license": "CC BY 4.0", 
       "size": 0.476,
       "md5": "764a6960f2aff5a23856bd2686f33098",
       "url": "https://entu.keeleressursid.ee/api2/file-24909",
