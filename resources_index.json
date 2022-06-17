@@ -163,6 +163,15 @@
       "md5": "eb4d84e9c9d8d6ab8a8f163e62297b62",
       "url": "https://entu.keeleressursid.ee/api2/file-23896",
       "unpack_target_path": "word2vec/embeddings_2015-06-21/words.sg.s200.w2v.bin"
+    },
+
+    { "name": "collocation_net_2022-06-07", "aliases": ["collocation_net", "collocationnet"], 
+      "desc": "Files needed to use CollocationNet. Files include embeddings obtained from training Latent Dirichlet Allocation (LDA) models on different collocation types and example sentences.", 
+      "license": "CC BY-SA 4.0", 
+      "size": 2.81,
+      "md5": "7f7b6b1a81b05c87ee2ddc060ec6a4ea",
+      "url": "https://entu.keeleressursid.ee/api2/file-24924",
+      "unpack_target_path": "collocation_net/model_2022-06-07/"
     }
 
   ]
