@@ -11,22 +11,22 @@ The file `resources_index.json` should have the following format:
             # specific name of the resource. must be unique. mandatory
             "name": ___,
 
-            # alternative names for the resource. optional
+            # alternative names for the resource. recommended
             "aliases": [ ..., ... ], 
 
-            # (long) description of the resource. optional
+            # (long) description of the resource. recommended
             "desc": ___,
 
-            # license. can be freeform text. optional?
+            # license. can be freeform text. recommended
             "license": ___, 
 
             # download url of the resource. zip or gz file or huggingface repo. mandatory
             "url": "https://...", 
 
-            # size of the unpacked resource in GB. floating point number. optional.
+            # size of the unpacked resource in GB. floating point number. recommended
             "size": ___,
 
-            # MD5 hexdigest string of the packed resource. optional.
+            # MD5 hexdigest string of the packed resource. recommended
             "md5": ___,
           
             # path of the resource inside the resources folder once it has been unpacked. 
@@ -39,6 +39,11 @@ The file `resources_index.json` should have the following format:
             # revision of a huggingface repo (if url is a huggingface repo). optional.
             "hf_revision": ___,
 
+            # estnltk version specifier, following PEP 440 format. optional.
+            "estnltk_version": ___, 
+
+            # estnltk_neural version specifier, following PEP 440 format. optional.
+            "estnltk_neural_version": ___, 
         },
 
         ...
@@ -62,6 +67,7 @@ Notes:
 	* if the resource is a directory, then the path should end with `/`; otherwise, it is assumed to be path of a file;
 	* the path (even if it is a file path) should contain two directories: first directory names the tool using the resource, and its sub diretory names the specific version of the model. Examples: `"stanza_syntax/models_2020-11-30/"`, `"udpipe_syntax/models_2021-05-29/"`, `"word2vec/embeddings_2015-06-21/lemmas.cbow.s100.w2v.bin"`;
 * `"unpack_source_path"` can be used to specify the resource path inside the archive iff the archive has different directory structure. However, you should not use that often. It is recommended to pack resources in a way that the archive  contains the same directory structure as specified by `"unpack_target_path"`;
+* `"estnltk_version"` and `"estnltk_neural_version"` can be used to specify, which version of estnltk or estnltk_neural is required by the resource. Must follow the _version specifier format_ defined in [PEP 440](https://peps.python.org/pep-0440/). Examples: `>=1.7.1` (a single version clause), `>1.6.9.1, <=1.7.5` (multiple clauses separated by comma). The current implementation of version checking is rudimentary: it distinguishes only final release segments of versions, and is not expected to work properly on pre-release, post-release etc. segments.
 
 ##### How to test my resource index update?
 
