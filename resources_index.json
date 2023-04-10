@@ -84,20 +84,20 @@
       "unpack_target_path": "estbert/model_hf_tartunlp_2022-03-10/"
     },
     
-    { "name": "estbertner_from_tartunlp_hf_2023-04-07", "aliases": ["estbertner"],
+    { "name": "estbertner_from_tartunlp_hf_2022-05-06", "aliases": ["estbertner"],
       "desc": "EstBERT_NER is a fine-tuned EstBERT model that can be used for Named Entity Recognition.",
       "license": "CC BY 4.0",
       "size": 1.98,
-      "url": "https://huggingface.co/tartuNLP/EstBERT_NER",
-      "unpack_target_path": "estbert/model_hf_tartunlp_2023-04-07/"
+      "url": "https://huggingface.co/tartuNLP/EstBERT_NER", "hf_revision": "fc6f195",
+      "unpack_target_path": "estbert/ner_model_hf_tartunlp_2022-05-06/"
     },
 
-    { "name": "estbertner_v2_from_tartunlp_hf_2023-04-07", "aliases": ["estbertner_v2"],
+    { "name": "estbertner_v2_from_tartunlp_hf_2022-12-12", "aliases": ["estbertner_v2"],
       "desc": "EstBERT_NER is a fine-tuned EstBERT model that can be used for Named Entity Recognition.",
       "license": "CC BY 4.0",
       "size": 0.5,
-      "url": "https://huggingface.co/tartuNLP/EstBERT_NER_v2",
-      "unpack_target_path": "estbert/model_v2_hf_tartunlp_2023-04-07/"
+      "url": "https://huggingface.co/tartuNLP/EstBERT_NER_v2", "hf_revision": "fe2a101",
+      "unpack_target_path": "estbert/ner_model_v2_hf_tartunlp_2022-12-12/"
     },
     
     { "name": "estbert_2020-10-20", "aliases": ["estbert", "berttagger", "berttransformer", "bert"], 
