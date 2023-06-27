@@ -102,6 +102,16 @@
       "unpack_source_path": "neural_morph_disamb/seq2seq_emb_tag_sum_23-08-2019/",
       "unpack_target_path": "neural_morph_disamb/seq2seq_emb_tag_sum_2019-08-23/"
     },
+    
+    { "name": "hfst_analyser_2019-03-22", "aliases": ["hfst_morph", "hfst", "hfstmorph", "hfstmorphanalyser"],
+      "desc": "Model for HfstClMorphAnalyser. Produces ambiguous morphological analyses with HFST tools. The source of the model was obtained from a legacy repository: https://victorio.uit.no/langtech/trunk/experiment-langs/est/?p=177977 (revision 177977 from 2019-03-22). The repository has been relocated to here: https://github.com/giellalt/lang-est-x-utee .", 
+      "license": "CC BY-SA 4.0 + LGPL 3.0", 
+      "url": "https://object.hpc.ut.ee/ladu.keeleressursid.ee/estnltk/estnltk_resources/hfst_analyser_2019-03-22.zip", 
+      "size": 0.012,
+      "md5": "53cfeb677868d819a6fd2bf0f8efd928",
+      "unpack_source_path": "hfst/analyser_2019-03-22/",
+      "unpack_target_path": "hfst/analyser_2019-03-22/"
+    },
 
     { "name": "estbert_from_tartunlp_hf_2022-03-10", "aliases": ["estbert", "berttagger", "berttransformer", "bert"], 
       "desc": "Model for BertTagger and BertTransformer. BertTagger outputs token or word level embeddings. BertTransformer outputs sentence and word level embeddings. The original EstBERT model was trained on Estonian National Corpus 2017 by Hasan Tanvir, Claudia Kittask, Kairit Sirts. This version of the model is from huggingface tartuNLP/EstBERT commit e97f62c. More info: https://huggingface.co/tartuNLP/EstBERT", 
