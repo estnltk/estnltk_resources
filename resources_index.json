@@ -54,6 +54,15 @@
       "unpack_target_path": "udpipe_syntax/models_2021-05-29/"
     },
 
+    { "name": "estwordnet_2020-06-30", "aliases": ["wordnet", "estwn"], 
+      "desc": "Database files of Estonian Wordnet version 2.3.2. This resource was created by Birgit Sõrmus via XML wordnet conversion utilities from: https://github.com/estnltk/estnltk/blob/version_1.6/estnltk/wordnet/data_import/data_extract.ipynb", 
+      "license": "CC BY-SA 4.0", 
+      "url": "https://object.hpc.ut.ee/ladu.keeleressursid.ee/estnltk/estnltk_resources/wordnet_2020-06-30.zip", 
+      "size": 0.022, 
+      "md5": "5f093071dbb5748eaa9ec18083048bac", 
+      "unpack_target_path": "wordnet/estwn-et-2.3.2_2020-06-30/" 
+    },
+
     { "name": "neural_morph_softmax_emb_cat_sum_2019-08-23", "aliases": ["neural_morph", "neural_morph_disamb", "neural_morph_tagger", "neuralmorphdisamb", "neuralmorphtagger", "softmaxembcatsumtagger"], 
       "desc": "Model for SoftmaxEmbCatSumTagger (NeuralMorphTagger). All neural morphological disambiguation models were trained by Kermo Saarse and Kairit Sirts in June-August 2018 using High Performance Cluster in University of Tartu. Specific requirements: Python 3.7, tensorflow version < 2.0, such as 1.15.5.", 
       "license": "CC BY-SA 4.0", 
