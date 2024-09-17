@@ -1,5 +1,13 @@
 { "resources": [
 
+    { "name": "bert_morph_from_tartunlp_hf_2024-09-17", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging"],
+      "desc": "This is a Est-RoBERTa based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. Model has been created by Sander Saska and its finetuning and evalation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
+      "license": "CC BY 4.0",
+      "size": 0.474,
+      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging", "hf_revision": "814fa65", 
+      "unpack_target_path": "estroberta/morph_from_tartunlp_hf_2024-09-17/"
+    },
+
     { "name": "estwordnet_2023-07-20", "aliases": ["wordnet", "estwn"], 
       "desc": "Database files for Estonian Wordnet API. This resource is based on Estonian Wordnet version 2.6.0. The original source for creating the database files: https://github.com/estnltk/estnltk-model-training/blob/main/wordnet/data_extraction.ipynb", 
       "license": "CC BY-SA 4.0", 
