@@ -1,5 +1,14 @@
 { "resources": [
 
+    { "name": "propbank_preannotator_2024-10-28", "aliases": ["propbank", "propbank_preannotator", "propbankpreannotator"], 
+      "desc": "Preliminary lexicon for annotating Propbank style semantic roles with PropBankPreannotator. Automatically derived from resources of the project EKTB75, based on the resources version 2024-10-28.", 
+      "license": "CC BY-SA 3.0", 
+      "url": "https://s3.hpc.ut.ee/estnltk/estnltk_resources/propbank_preannotator_2024-10-28.zip", 
+      "size": 0.000024, 
+      "md5": "3fef167096aa26a6439811036f05f01d", 
+      "unpack_target_path": "propbank_preannotator/resources_2024-10-28/" 
+    },
+
     { "name": "bert_morph_from_tartunlp_hf_2024-09-17", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging"],
       "desc": "This is a Est-RoBERTa based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. This version of the model has been fine-tuned to mimic automatic tagging behaviour of the Vabamorf morphological analyser and disambiguator. Model has been created by Sander Saska and its finetuning and evaluation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
       "license": "CC BY-SA 4.0",
