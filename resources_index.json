@@ -17,7 +17,7 @@
       "unpack_target_path": "propbank_preannotator/resources_2024-10-28/" 
     },
 
-    { "name": "bert_morph_from_tartunlp_hf_2024-09-17", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging"],
+    { "name": "bert_morph_from_tartunlp_hf_2024-09-17", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging", "bertmorphv1", "bert_morph_v1"],
       "desc": "Est-RoBERTa-based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. This version of the model has been fine-tuned to mimic automatic tagging behaviour of the Vabamorf morphological analyser and disambiguator. Model has been created by Sander Saska and its finetuning and evaluation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
       "license": "CC BY-SA 4.0",
       "size": 0.474,
