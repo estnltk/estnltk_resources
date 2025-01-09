@@ -1,7 +1,7 @@
 { "resources": [
 
     { "name": "glilem-vabamorf-disambiguator_hf_2024-09-26", "aliases": ["glilem", "glilem_vabamorf_disambiguator", "lemmatizer", "morph_disambiguator"],
-      "desc": "Model for GliLemTagger. GliLem can be used to disambiguate Vabamorf's output and enhance Vabamorf's analysis. The model has been created by Aleksei Dorkin and Kairit Sirts and introduced in the paper: https://arxiv.org/abs/2412.20597 ",
+      "desc": "Model for GliLemTagger. GliLem can be used to disambiguate Vabamorf's output and enhance Vabamorf's lemmatization. The model has been created by Aleksei Dorkin and Kairit Sirts and introduced in the paper: https://arxiv.org/abs/2412.20597 ",
       "license": "apache-2.0",
       "size": 1.1,
       "url": "https://huggingface.co/tartuNLP/glilem-vabamorf-disambiguator", "hf_revision": "a250527", 
