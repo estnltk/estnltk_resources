@@ -1,5 +1,13 @@
 { "resources": [
 
+    { "name": "glilem-vabamorf-disambiguator_hf_2024-09-26", "aliases": ["glilem", "glilem_vabamorf_disambiguator", "lemmatizer", "morph_disambiguator"],
+      "desc": "Model for GliLemTagger. GliLem can be used to disambiguate Vabamorf's output and enhance Vabamorf's analysis. The model has been created by Aleksei Dorkin and Kairit Sirts and introduced in the paper: https://arxiv.org/abs/2412.20597 ",
+      "license": "apache-2.0",
+      "size": 1.1,
+      "url": "https://huggingface.co/tartuNLP/glilem-vabamorf-disambiguator", "hf_revision": "a250527", 
+      "unpack_target_path": "glilem_vabamorf_disambiguator_hf_2024-09-26/"
+    },
+
     { "name": "bert_morph_from_tartunlp_hf_2025-01-03", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging", "bertmorphv2", "bert_morph_v2"],
       "desc": "Est-RoBERTa-based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. This is version 2 of the model, which has been: 1) fine-tuned to mimic automatic tagging behaviour of the Vabamorf morphological analyser and disambiguator, 2) fine-tuned on gold standard morphological annotations of Estonian Dependency Treebank (EDT). Model has been created by Sander Saska and its finetuning and evaluation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
       "license": "CC BY-SA 4.0",
