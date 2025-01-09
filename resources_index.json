@@ -5,7 +5,7 @@
       "license": "apache-2.0",
       "size": 1.1,
       "url": "https://huggingface.co/tartuNLP/glilem-vabamorf-disambiguator", "hf_revision": "a250527", 
-      "unpack_target_path": "glilem_vabamorf_disambiguator_hf_2024-09-26/"
+      "unpack_target_path": "glilem/vabamorf_disambiguator_hf_2024-09-26/"
     },
 
     { "name": "bert_morph_from_tartunlp_hf_2025-01-03", "aliases": ["bertmorph", "bert_morph", "bertmorphtagging", "bert_morph_tagging", "bertmorphv2", "bert_morph_v2"],
