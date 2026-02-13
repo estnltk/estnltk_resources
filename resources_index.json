@@ -1,5 +1,14 @@
 { "resources": [
 
+    { "name": "estwordnet_2026-02-13", "aliases": ["wordnet", "estwn"], 
+      "desc": "Database files for Estonian Wordnet API. This resource is based on Estonian Wordnet version 2.7.0. The original source which was used for creating the database files can be found here: https://github.com/estnltk/estnltk-model-training/blob/main/wordnet/data_extraction.ipynb", 
+      "license": "CC BY-SA 4.0", 
+      "url": "https://s3.hpc.ut.ee/estnltk/estnltk_resources/wordnet_2026-02-13.zip", 
+      "size": 0.026, 
+      "md5": "677a7d89c2e9f6412d5fa5f487f97ff9", 
+      "unpack_target_path": "wordnet/estwn-et-2.7.0_2026-02-13/" 
+    },
+
     { "name": "estroberta_ud-ner_2025-04-25", "aliases": ["estroberta_ud_ner_v1", "ud_ner_v1", "ud_ner"], 
       "desc": "Est-RoBERTa_UD-NER is an Est-RoBERTa based model fine-tuned for Named Entity Recognition on the EDT and EWT treebanks. This model has been trained to recognize 8 types of entities: PER (persons), ORG (organisations), LOC (locations), GEP (geopolitical entities), EVENT (events), PROD (product names), MUU (other names) or UNK (names of unknown category). ", 
       "license": "CC BY-SA 4.0", 
