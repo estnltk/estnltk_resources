@@ -30,7 +30,7 @@
       "desc": "Est-RoBERTa-based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. This is version 2 of the model, which has been: 1) fine-tuned to mimic automatic tagging behaviour of the Vabamorf morphological analyser and disambiguator, 2) fine-tuned on gold standard morphological annotations of Estonian Dependency Treebank (EDT). Model has been created by Sander Saska and its finetuning and evaluation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
       "license": "CC BY-SA 4.0",
       "size": 0.474,
-      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging", "hf_revision": "a5c17c0", 
+      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging", "hf_revision": "13a8f0b", 
       "unpack_target_path": "estroberta/morph_from_tartunlp_hf_2025-01-03/"
     },
 
