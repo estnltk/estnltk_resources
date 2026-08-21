@@ -14,7 +14,7 @@
       "desc": "Est-RoBERTa based expert model specifically finetuned for tagging homonymous word forms in Estonian. The model uses partofpseech and morphological features from Vabamorf's tagset and focuses on disambiguating homonymous word forms from inflectional types 1, 16, 17 and 19. The model has been created by Sander Saska (https://thesis.cs.ut.ee/8f10695d-4276-47ea-b306-5df66c034057), and the finetuning and evaluation code is available at: https://github.com/SanderSaska/EstNLTK_model_training.",
       "license": "CC BY-SA 4.0",
       "size": 0.451,
-      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-homonym-tagging", "hf_revision": "b78dd58", 
+      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-homonym-tagging", "hf_revision": "7912819", 
       "unpack_target_path": "estroberta/morph_homonym_expert_tartunlp_hf_2026-06-16/" 
     },
 
@@ -48,7 +48,7 @@
       "desc": "Est-RoBERTa-based model finetuned for tagging Vabamorf format partofpseech and morphological features on Estonian words. This is version 2 of the model, which has been: 1) fine-tuned to mimic automatic tagging behaviour of the Vabamorf morphological analyser and disambiguator, 2) fine-tuned on gold standard morphological annotations of Estonian Dependency Treebank (EDT). Model has been created by Sander Saska and its finetuning and evaluation scripts are available here: https://github.com/estnltk/estnltk-model-training/tree/main/morph_tagging ",
       "license": "CC BY-SA 4.0",
       "size": 0.474,
-      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging", "hf_revision": "13a8f0b", 
+      "url": "https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging", "hf_revision": "9522ba7", 
       "unpack_target_path": "estroberta/morph_from_tartunlp_hf_2025-01-03/"
     },
 
