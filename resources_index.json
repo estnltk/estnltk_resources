@@ -27,13 +27,13 @@
       "unpack_target_path": "wordnet/estwn-et-2.7.0_2026-02-13/" 
     },
 
-    { "name": "estroberta_ud-ner_2026-03-30", "aliases": ["estroberta_ud_ner_v1", "ud_ner_v1", "ud_ner"], 
+    { "name": "estroberta_ud-ner_2026-08-21", "aliases": ["estroberta_ud_ner_v1", "ud_ner_v1", "ud_ner"], 
       "desc": "Est-RoBERTa_UD-NER is an Est-RoBERTa based model fine-tuned for Named Entity Recognition on the EDT and EWT treebanks. This model has been trained to recognize 8 types of entities: PER (persons), ORG (organisations), LOC (locations), GEP (geopolitical entities), EVENT (events), PROD (product names), MUU (other names) or UNK (names of unknown category). ", 
       "license": "CC BY-SA 4.0", 
-      "url": "https://s3.hpc.ut.ee/estnltk/estnltk_resources/estroberta_ud-ner_2026-03-30.zip", 
+      "url": "https://s3.hpc.ut.ee/estnltk/estnltk_resources/estroberta_ud-ner_2026-08-21.zip", 
       "size": 1.4, 
-      "md5": "e0ed92379b9541e72db6628b1472c4d5", 
-      "unpack_target_path": "estroberta/ud-ner_2026-03-30/" 
+      "md5": "1575af3210fd2deffd040ba587a677c7", 
+      "unpack_target_path": "estroberta/ud-ner_2026-08-21/" 
     },
 
     { "name": "glilem-vabamorf-disambiguator_hf_2024-09-26", "aliases": ["glilem", "glilem_vabamorf_disambiguator", "lemmatizer", "morph_disambiguator"],
