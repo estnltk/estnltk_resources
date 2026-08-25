@@ -6,8 +6,7 @@
       "url": "https://s3.hpc.ut.ee/estnltk/estnltk_resources/stanza_syntax_2026-08-18.zip", 
       "size": 1.7, 
       "md5": "6d0011a0e7a98e465def19b8c3824f3b", 
-      "unpack_target_path": "stanza_syntax/models_2026-08-18/",
-      "estnltk_neural_version": ">= 1.7.5"
+      "unpack_target_path": "stanza_syntax/models_2026-08-18/"
     },
 
     { "name": "bert_morph_homonym_expert_from_tartunlp_hf_2026-06-16", "aliases": ["bertmorphexpert", "bert_morph_expert", "form_homonymy_expert", "morph_homonymy_expert", "Ro-v2-H"],
